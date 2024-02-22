@@ -8,7 +8,7 @@ Instruções:
 
 Arquivos:
 * Relatórico de análise e implementação do projeto: LH_DS_CharlyBraga.ipynb
-* tBase de dados: este_indicium_precificacao.csv
+* Base de dados: este_indicium_precificacao.csv
 * O modelo de dados treinado e salvo (model_price_catboost.pkl)  não foi possível salvar aqui no Github, devido ao tamanho. assim salvei ele no google drive e estou disponibilizando o link aqui: https://drive.google.com/file/d/1DnkvOEMKS6c7yOJeyucazbiF_t-QctoU/view?usp=sharing
   
 
@@ -30,25 +30,27 @@ Dicionário de dados:
 *  **calculado_host_listings_count**: Contém a quantidade de listagem por host
 *  **disponibilidade_365**: Contém o número de dias em que o anúncio está disponível para reserva
 
-Metadados baseado no dataFrame do python:
-Quantidade de linhas (registros): 48.894
-Quantidade de colunas (variáveis): 16
- #   Coluna                         Qtd não nulos   Tipo 
-===  ======                         =============   ====0   id                             48894 non-null  int64  
- 1   nome                           48878 non-null  object 
- 2   host_id                        48894 non-null  int64  
- 3   host_name                      48873 non-null  object 
- 4   bairro_group                   48894 non-null  object 
- 5   bairro                         48894 non-null  object 
- 6   latitude                       48894 non-null  float64
- 7   longitude                      48894 non-null  float64
- 8   room_type                      48894 non-null  object 
- 9   price                          48894 non-null  int64  
- 10  minimo_noites                  48894 non-null  int64  
- 11  numero_de_reviews              48894 non-null  int64  
- 12  ultima_review                  38842 non-null  object 
- 13  reviews_por_mes                38842 non-null  float64
- 14  calculado_host_listings_count  48894 non-null  int64  
- 15  disponibilidade_365            48894 non-null  int64  
-dtypes: float64(3), int64(7), object(6)
-memory usage: 6.0+ MB
+Alguns metadados da base de dados:
+* Quantidade de linhas (registros): 48.894
+* Quantidade de colunas (variáveis): 16
+  
+| #   | Colunas                        | Qtd não nulos | Tipos    |
+|-----|--------------------------------|---------------|----------|
+| 0   | id                             | 48894 não-nulo| inteiro  |
+| 1   | nome                           | 48878 não-nulo| texto    |
+| 2   | host_id                        | 48894 não-nulo| inteiro  |
+| 3   | host_name                      | 48873 não-nulo| texto    |
+| 4   | bairro_group                   | 48894 não-nulo| texto    |
+| 5   | bairro                         | 48894 não-nulo| texto    |
+| 6   | latitude                       | 48894 não-nulo| decimal  |
+| 7   | longitude                      | 48894 não-nulo| decimal  |
+| 8   | room_type                      | 48894 não-nulo| texto    |
+| 9   | price                          | 48894 não-nulo| inteiro  |
+| 10  | minimo_noites                  | 48894 não-nulo| inteiro  |
+| 11  | numero_de_reviews              | 48894 não-nulo| inteiro  |
+| 12  | ultima_review                  | 38842 não-nulo| texto    |
+| 13  | reviews_por_mes                | 38842 não-nulo| decimal  |
+| 14  | calculado_host_listings_count  | 48894 não-nulo| inteiro  |
+| 15  | disponibilidade_365            | 48894 não-nulo| inteiro  |
+
+
