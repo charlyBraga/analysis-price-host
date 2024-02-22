@@ -1,23 +1,23 @@
-##Análise de dados, resposta de questãoes de negócios e aplicação de modelos preditivos relacionado à base de dados de anúncios de hospedagem
+## Análise de dados, resposta de questãoes de negócios e aplicação de modelos preditivos relacionado à base de dados de anúncios de hospedagem
 
-###Esse projeto visa fazer uma análise exploratória de uma base de dados com anúncios de hospegens, onde o preço se relaciona com outras variáveis,
+### Esse projeto visa fazer uma análise exploratória de uma base de dados com anúncios de hospegens, onde o preço se relaciona com outras variáveis,
 como local e reviews de usuários. Além disso se tem objetivo de responder questão de negócios, que estão disponíveil no próprio arquivo jupyter notebook. Tudo foi desenvolvido no google colab na linguagem python. Modelos de machine learning como CatBoostRegressor foi utilizado.
 Abaixo há mais informações sobre o projeto.
 
 Autor: Charly Braga Ventura
 Data de implementação: fevereiro de 2024
 
-####Instruções:
+####I nstruções:
 * Independente de qual parte do algoritmo for utilizada, execute o código logo abaixo para importar as bibliotecas.
 * O módulo catboost deve ser instalado, caso não esteja.
 
-####Arquivos:
+#### Arquivos:
 * Relatórico de análise e implementação do projeto: LH_DS_CharlyBraga.ipynb
 * Base de dados: este_indicium_precificacao.csv
 * O modelo de dados treinado e salvo (model_price_catboost.pkl)  não foi possível salvar aqui no Github, devido ao tamanho. assim salvei ele no google drive e estou disponibilizando o link aqui: https://drive.google.com/file/d/1DnkvOEMKS6c7yOJeyucazbiF_t-QctoU/view?usp=sharing
   
 
-####Dicionário de dados:
+#### Dicionário de dados:
 *  **id**: Atua como uma chave exclusiva para cada anúncio nos dados do aplicativo
 *  **nome**: Representa o nome do anúncio
 *  **host_id**: Representa o id do usuário que hospedou o anúncio
@@ -35,7 +35,7 @@ Data de implementação: fevereiro de 2024
 *  **calculado_host_listings_count**: Contém a quantidade de listagem por host
 *  **disponibilidade_365**: Contém o número de dias em que o anúncio está disponível para reserva
 
-####Alguns metadados da base de dados:
+#### Alguns metadados da base de dados:
 * Quantidade de linhas (registros): 48.894
 * Quantidade de colunas (variáveis): 16
   
