@@ -1,10 +1,10 @@
 ## Análise de dados, resposta de questãoes de negócios e aplicação de modelos preditivos relacionado à base de dados de anúncios de hospedagem
 
-### Esse projeto visa fazer uma análise exploratória de uma base de dados com anúncios de hospegens, onde o preço se relaciona com outras variáveis,
-como local e reviews de usuários. Além disso se tem objetivo de responder questão de negócios, que estão disponíveil no próprio arquivo jupyter notebook. Tudo foi desenvolvido no google colab na linguagem python. Modelos de machine learning como CatBoostRegressor foi utilizado.
+### Esse projeto visa fazer uma análise exploratória de uma base de dados com anúncios de hospegens, onde o preço se relaciona com outras variáveis, como local e reviews de usuários. Além disso se tem objetivo de responder questão de negócios, que estão disponíveil no próprio arquivo jupyter notebook. Tudo foi desenvolvido no google colab na linguagem python. Modelos de machine learning como CatBoostRegressor foi utilizado.
 Abaixo há mais informações sobre o projeto.
 
 Autor: Charly Braga Ventura
+
 Data de implementação: fevereiro de 2024
 
 #### Instruções:
