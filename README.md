@@ -8,13 +8,13 @@ Autor: Charly Braga Ventura
 Data de implementação: fevereiro de 2024
 
 #### Instruções:
-* Independente de qual parte do algoritmo for utilizada, execute o código logo abaixo para importar as bibliotecas.
-* O módulo catboost deve ser instalado, caso não esteja.
+* Independente de qual parte do algoritmo for utilizada, execute o bloco onde estão as bibliotecas.
+* O módulo "catboost" deve ser instalado, caso não esteja.
 
-#### Arquivos:
+#### Arquivos presente nesse repositório:
 * Relatórico de análise e implementação do projeto: LH_DS_CharlyBraga.ipynb
 * Base de dados: este_indicium_precificacao.csv
-* O modelo de dados treinado e salvo (model_price_catboost.pkl)  não foi possível salvar aqui no Github, devido ao tamanho. assim salvei ele no google drive e estou disponibilizando o link aqui: https://drive.google.com/file/d/1DnkvOEMKS6c7yOJeyucazbiF_t-QctoU/view?usp=sharing
+* O modelo de dados treinado e salvo: model_price_catboost.pkl, não foi possível salvar aqui no Github, devido ao tamanho, assim salvei ele no google drive e estou disponibilizando o link aqui: https://drive.google.com/file/d/1DnkvOEMKS6c7yOJeyucazbiF_t-QctoU/view?usp=sharing
   
 
 #### Dicionário de dados:
