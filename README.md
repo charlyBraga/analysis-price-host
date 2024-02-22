@@ -7,7 +7,7 @@ Abaixo há mais informações sobre o projeto.
 Autor: Charly Braga Ventura
 Data de implementação: fevereiro de 2024
 
-####I nstruções:
+#### Instruções:
 * Independente de qual parte do algoritmo for utilizada, execute o código logo abaixo para importar as bibliotecas.
 * O módulo catboost deve ser instalado, caso não esteja.
 
