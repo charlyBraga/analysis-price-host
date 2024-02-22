@@ -6,6 +6,11 @@ Instruções:
 * Independente de qual parte do algoritmo for utilizada, execute o código logo abaixo para importar as bibliotecas.
 * O módulo catboost deve ser instalado, caso não esteja.
 
+Arquivos:
+* Relatórico de análise e implementação do projeto: LH_DS_CharlyBraga.ipynb
+* tBase de dados: este_indicium_precificacao.csv
+* O modelo de dados treinado e salvo (model_price_catboost.pkl)  não foi possível salvar aqui no Github, devido ao tamanho. assim salvei ele no google drive e estou disponibilizando o link aqui: https://drive.google.com/file/d/1DnkvOEMKS6c7yOJeyucazbiF_t-QctoU/view?usp=sharing
+  
 
 Dicionário de dados:
 *  **id**: Atua como uma chave exclusiva para cada anúncio nos dados do aplicativo
@@ -29,8 +34,7 @@ Metadados baseado no dataFrame do python:
 Quantidade de linhas (registros): 48.894
 Quantidade de colunas (variáveis): 16
  #   Coluna                         Qtd não nulos   Tipo 
----  ------                         --------------  -----  
- 0   id                             48894 non-null  int64  
+===  ======                         =============   ====0   id                             48894 non-null  int64  
  1   nome                           48878 non-null  object 
  2   host_id                        48894 non-null  int64  
  3   host_name                      48873 non-null  object 
