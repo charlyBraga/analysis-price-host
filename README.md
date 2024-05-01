@@ -19,7 +19,7 @@ Data de implementação: fevereiro de 2024
 
 #### Dicionário de dados:
 O dicionário de dados visa explicar os significados das colunas da base de dados em forma de tabela utilizada neste projeto. 
-Esses dados tem tipos definidos, como exemplos, idade são tipo números inteiros e valor monetário tipo número decimal.
+Cada coluna tem um tipo definido, como exemplo, idade geralmente é repsentada por tipo número inteiro e valor monetário por tipo número decimal.
 *  **id**: identificação exclusiva para cada anúncio nos dados do aplicativo, ou seja, cada linha terá um valor único (tipo número inteiro)
 *  **nome**: nome do anúncio (tipo texto)
 *  **host_id**: identicação do usuário que hospedou o anúncio (tipo número inteiro)
