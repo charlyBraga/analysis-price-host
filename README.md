@@ -18,23 +18,24 @@ Data de implementação: fevereiro de 2024
   
 
 #### Dicionário de dados:
-O dicionário de dados visa explicar os significados das colunas da base de dados em forma de tabela utilizada neste projeto.
-*  **id**: Atua como uma chave exclusiva para cada anúncio nos dados do aplicativo
-*  **nome**: Representa o nome do anúncio
-*  **host_id**: Representa o id do usuário que hospedou o anúncio
-*  **host_name**: Contém o nome do usuário que hospedou o anúncio
-*  **bairro_group**: Contém o nome do bairro onde o anúncio está localizado
-*  **bairro**:Contém o nome da área onde o anúncio está localizado
-*  **latitude**: Contém a latitude do local
-*  **longitude**: Contém a longitude do local
-*  **room_type**: Contém o tipo de espaço de cada anúncio
-*  **price**: Contém o preço por noite em dólares listado pelo anfitrião
-*  **minimo_noites**: Contém o número mínimo de noites que o usuário deve reservar
-*  **numero_de_reviews**: Contém o número de comentários dados a cada listagem
-*  **ultima_review**: Contém a data da última revisão dada à listagem
-*  **reviews_por_mes**: Contém o número de avaliações fornecidas por mês
-*  **calculado_host_listings_count**: Contém a quantidade de listagem por host
-*  **disponibilidade_365**: Contém o número de dias em que o anúncio está disponível para reserva
+O dicionário de dados visa explicar os significados das colunas da base de dados em forma de tabela utilizada neste projeto. 
+Esses dados tem tipos definidos, como exemplos, idade são tipo números inteiros e valor monetário tipo número decimal.
+*  **id**: identificação exclusiva para cada anúncio nos dados do aplicativo, ou seja, cada linha terá um valor único (tipo número inteiro)
+*  **nome**: nome do anúncio (tipo texto)
+*  **host_id**: identicação do usuário que hospedou o anúncio (tipo número inteiro)
+*  **host_name**: nome do usuário que hospedou o anúncio (tipo texto)
+*  **bairro_group**: nome do bairro onde o anúncio está localizado (tipo texto)
+*  **bairro**: nome da área onde o anúncio está localizado (tipo texto)
+*  **latitude**: latitude do local (tipo número decimal)
+*  **longitude**: longitude do local (tipo número decimal)
+*  **room_type**: tipo de espaço de cada anúncio  (tipo texto)
+*  **price**: preço por noite em dólares listado pelo anfitrião (tipo número decimal)
+*  **minimo_noites**: número mínimo de noites que o usuário deve reservar (tipo número inteiro)
+*  **numero_de_reviews**: número de comentários dados a cada listagem (tipo número inteiro)
+*  **ultima_review**: data da última revisão dada à listagem (tipo data)
+*  **reviews_por_mes**: número de avaliações fornecidas por mês (tipo número inteiro)
+*  **calculado_host_listings_count**: quantidade de listagem por host  (tipo número inteiro)
+*  **disponibilidade_365**: número de dias em que o anúncio está disponível para reserva (tipo número inteiro)
 
 #### Alguns metadados da base de dados:
 * Quantidade de linhas (registros): 48.894
