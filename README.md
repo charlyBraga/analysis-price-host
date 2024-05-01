@@ -18,6 +18,7 @@ Data de implementação: fevereiro de 2024
   
 
 #### Dicionário de dados:
+O dicionário de dados visa explicar os significados das colunas da base de dados em forma de tabela utilizada neste projeto.
 *  **id**: Atua como uma chave exclusiva para cada anúncio nos dados do aplicativo
 *  **nome**: Representa o nome do anúncio
 *  **host_id**: Representa o id do usuário que hospedou o anúncio
